@@ -44,3 +44,4 @@
 ##### [GitLab Repo](https://gitlab.com/Trueold89/bspwm-milk-dots)
 ##### [Telegram channel](https://oldovtrashbin.t.me/)
 ##### [Discord server](https://orudo.ru)
+##### [Reddit r/bspwm post](https://www.reddit.com/r/bspwm/comments/13zrxbz/bspwm_polybar_milk_outside_a_bag_of_milk_outside/?utm_source=share&utm_medium=web2x&context=3)
