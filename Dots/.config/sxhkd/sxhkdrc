@@ -1,0 +1,75 @@
+##############
+#  AppBinds  #
+##############
+
+#TUI
+super + {_,shift} + Return
+	{kitty, kitty tmux attach}
+super + shift + n
+	kitty ranger
+
+#Browsers
+super + {m,b}
+	{qutebrowser,firefox}
+
+#Rofi
+super + Tab
+	rofi -modi drun,run -show drun
+super + v
+	rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+
+#Nemo
+super + n
+	nemo
+
+#Spotify
+super +s
+ spotify
+
+###########
+#  BSPWM  #
+###########
+
+#SmartMove
+super + shift + {h,j,k,l}
+	bspc node -s {west,south,north,east}
+
+#Quit / Restart
+super + shift + {e,r}
+	bspc {quit,wm -r}
+super + shift + c
+	pkill -USR1 -x sxhkd
+
+#Close
+super + shift + q
+	bspc node -c
+
+#Monocle mode
+super + shift + m
+	bspc desktop -l next
+
+#Change window state
+super + {r,space,f}
+	bspc node -t {tiled,floating,fullscreen}
+
+#Change window flags
+super + ctrl + {z,x,c}
+	bspc node -g {marked,locked,sticky}
+
+#Media
+{XF86AudioPlay,XF86AudioPause,XF86AudioPrev,XF86AudioNext}
+	playerctl {play,pause,previous,next}
+
+#Switch windows
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+#Workspaces
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}' --follow
+
+#Enable/Disable Picom
+super + shift + p
+	~/.local/bin/picomswitch

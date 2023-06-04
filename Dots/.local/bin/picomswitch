@@ -1,0 +1,7 @@
+PICOM=$(pgrep picom)
+if [ "$PICOM" == "" ]
+then
+ picom&
+else
+ killall picom
+fi
