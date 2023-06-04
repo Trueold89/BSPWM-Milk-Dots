@@ -6,11 +6,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
+zstyle ':omz:update' mode disabled  
 export ZSH="$HOME/.oh-my-zsh"
 export LANG=en_US.UTF-8
-zstyle ':omz:update' mode disabled  
-[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+ZSH_THEME="powerlevel10k/powerlevel10k"
+plugins=(git zsh-autosuggestions sudo web-search)
+source $ZSH/oh-my-zsh.sh
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 ###########
 # ALIASES #
@@ -26,3 +28,8 @@ alias v='vim'
 ##################
 
 PATH="$HOME/.local/bin:$PATH"
+
+
+
+
+
