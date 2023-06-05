@@ -12,6 +12,7 @@
 - **🐢 ZSH**
 - **🎵 Spicetify**
 - **✨ Picom**
+- **💬 Dunst**
 
 ##### 🎨 GTK Theme: ["Catppuccin Mocha"](https://github.com/catppuccin/gtk)
 
