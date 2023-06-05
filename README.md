@@ -38,10 +38,16 @@
 ##### [Catppuccin](https://github.com/catppuccin/catppuccin)
 ##### Rofi Kanagawa *(i can't find link :с)*
 ##### [Polybar docky](https://github.com/adi1090x/polybar-themes#docky)
+##### [oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
+##### [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 ## 🔗 Other Links:
 ##### [GitHub Repo](https://github.com/Trueold89/BSPWM-Milk-Dots)
 ##### [GitLab Repo](https://gitlab.com/Trueold89/bspwm-milk-dots)
 ##### [Telegram channel](https://oldovtrashbin.t.me/)
 ##### [Discord server](https://orudo.ru)
-##### [Reddit r/bspwm post](https://www.reddit.com/r/bspwm/comments/13zrxbz/bspwm_polybar_milk_outside_a_bag_of_milk_outside/?utm_source=share&utm_medium=web2x&context=3)
+
+## ⬆️ Help me on Reddit:
+##### [r/bspwm post](https://www.reddit.com/r/bspwm/comments/13zrxbz/bspwm_polybar_milk_outside_a_bag_of_milk_outside/?utm_source=share&utm_medium=web2x&context=3)
+##### [r/LinuxPorn post](https://www.reddit.com/r/LinuxPorn/comments/141ct9y/arch_linux_bspwm_milk_outside_a_bag_of_milk/?utm_source=share&utm_medium=web2x&context=3)
+##### [r/wallpaper post](https://www.reddit.com/r/wallpaper/comments/141cmx4/milk_outside_a_bag_of_milk_outside_a_bag_of_milk/?utm_source=share&utm_medium=web2x&context=3)
